@@ -1,0 +1,47 @@
+li {
+  list-style: none;
+}
+.nav__btn .fa-cog {
+  position: absolute;
+  right: -12px;
+  bottom: 0px;
+}
+
+.settinghead {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+}
+.settinghead__text {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.settingbar {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px;
+  height: 3000px;
+}
+.settingbar__textbox {
+  padding: 15px 0px;
+  border-bottom: rgba(0, 0, 0, 0.3) 1px solid;
+  align-items: center;
+  position: relative;
+}
+.settingbar__text {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 10px;
+}
+.settingbar__text2 {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.settingbar__textbox:nth-child(3) {
+  margin-bottom: 20px;
+}

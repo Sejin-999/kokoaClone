@@ -1,0 +1,130 @@
+.screen__header__iconi {
+  position: relative;
+}
+.screen__header__iconi__n {
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: tomato;
+  position: absolute;
+  right: 0;
+  right: -10px;
+  top: 0;
+  top: -20px;
+}
+.find__icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
+}
+.find__iconn i {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  align-items: center;
+}
+.find__icon__text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.find__re {
+  color: rgba(0, 0, 0, 0.5);
+}
+.find__re__text:first-child {
+  display: block;
+  padding: 20px 8px;
+  margin: 50px;
+  border-top: rgba(0, 0, 0, 0.2) solid 1px;
+}
+.find__re__text:last-child {
+  display: block;
+  text-align: center;
+  margin: 50px;
+  padding-bottom: 150px;
+  border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+}
+.find__open__box:first-child {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0px 50px;
+  position: relative;
+  font-size: 18px;
+}
+.find__open__box:nth-child(2) {
+  display: flex;
+}
+.find__open__box:nth-child(3) {
+  display: flex;
+}
+.find__open__box__title:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 50px;
+  font-size: 14px;
+}
+.find__open__box__title:last-child i {
+  color: rgba(0, 0, 0, 0.4);
+}
+.find__open__box__textbox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+.find__open__box__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.find__open__box__text {
+  padding: 10px 0px;
+}
+.find__open__box__text:first-child {
+  font-size: 25px;
+  font-weight: 500;
+}
+.find__open__box__text:nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+.find__open__box__text:last-child {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+.find__open__box__hei {
+  color: deeppink;
+  margin-left: 13px;
+}
+.find__open__box__imgbox .find__open__box__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  position: absolute;
+  right: 50px;
+  padding: 20px 0px;
+}
+.find__open__box__imghe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  right: 80px;
+  bottom: -60px;
+}
+.find__open__box__imghe i {
+  margin-right: 5px;
+}
+.find__open__box__imgbox {
+  position: absolute;
+  right: 10px;
+  width: 300px;
+  height: 100px;
+}

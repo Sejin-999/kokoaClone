@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome kokoa talk</title>
+  
+</head>
+
+<body>
+    <div class="status-bar">
+          <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+
+          </div>
+          <div class="status-bar__column">
+            <span>20:00</span>
+          </div>
+          <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-bolt"></i>
+          </div>
+    </div>
+
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+      <p class="welcome-header__text">당신이 계정을 가지고있다면 로그인을 없다면 이메일 혹은 전화번호를 적어주세요</p>
+    </header>
+
+    <form action="friends.html" method="GET" id="login-form">
+      <input name="username" type="text" placeholder="Email or Phonenumber"/>
+      <input name="Password" type="text" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">계정 혹은 비밀번호 찾기</a>
+    </form>
+
+
+<div id="no-mobile">
+  <span>당신의 화면이 너무커요 ㅠㅠ</span>
+</div>
+
+<script src="https://kit.fontawesome.com/b9698447d7.js" crossorigin="anonymous"></script>
+</body>
+</html>
